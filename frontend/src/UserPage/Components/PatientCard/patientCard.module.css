@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cardContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(153, 153, 192);
+}
+
+.card{
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: rgb(61, 62, 64);
+}
+
+.left{
+    width: 30%;
+    background-color: rgb(45, 205, 157);
+}
+
+.right{
+    width: 70%;
+    background-color: #fff;
+    color: black;
+}
+
+.title{
+    font-weight: 700;
+    font-size: large;
+}
+
+.subTitle{
+    font-weight: 500;
+}
+
+.tableContent{
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+
+
+.tableContent thead tr{
+    background-color: #009879;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tableContent tr,
+.tableContent td{
+    padding: 8px 10px;
+}
+
+.tableContent tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.tableContent tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.tableContent tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+
+
+.info{
+    align-self: flex-start;
+    margin: 10px 0;
+}
+
+.info:nth-child(0){
+    background-color: red;
+    margin-top: 15px;
+}
+
+.infoValue{
+  margin-left: 40px;
+}

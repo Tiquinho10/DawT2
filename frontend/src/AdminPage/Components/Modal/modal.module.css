@@ -1,0 +1,115 @@
+.inputControl{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputControl input, select{
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+    background-color: #f0f0f0;
+    color : rgb(46, 49, 47);
+}
+
+.inputControl input:focus {
+    outline: 0;
+}
+
+.inputControl .error{
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+.inputControl.sucess input{
+    border-color: #09c372;
+}
+
+.inputControl.errors input{
+    border-color: #ff3860;
+}
+
+
+
+/* modal */
+
+.modalBg{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    opacity: 1; 
+    transition:  visibility 0s,  opacity 0.5s;
+}
+
+.bgActive{
+    visibility: visible;
+    opacity: 1 ;
+}
+
+.modal{
+    position: relative;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    padding: 15px;
+}
+
+.modal #submit{
+    width: 100px;
+    text-transform: capitalize;
+    padding: 5px;
+    background-color: #06804f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.modal .closeBtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    background-color: rgb(247, 56, 56);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn_editar{
+    background-color: rgb(148, 180, 170);
+    color: white;
+    border: none;
+    width: 50px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn_excluir{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 50px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}

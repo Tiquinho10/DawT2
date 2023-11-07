@@ -1,0 +1,58 @@
+
+
+.card{
+  width: 60vw;
+  min-height: 35vh;
+  /* padding: 0 20px; */
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
+  /* background-color: #b1cfdc; */
+  background-color: #fff;
+  color: rgb(4, 24, 56);
+  border-radius: 10px;
+}
+
+/* .cardInfo{
+   display: flex;
+   justify-content: space-between;
+  
+}
+
+.cardInfo p{
+    line-height: 1px;
+    margin: 15px;
+} */
+
+.cardContent, .vaccineInfo{
+    width: 50%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.vaccineInfo{
+    background-color: #f0f0f0;
+}
+
+.vaccineInfo p{
+    /* text-decoration: underline; */
+}
+
+
+.title{
+    font-weight: bold;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.list li{
+    list-style: circle;
+    margin-right: 10px;
+}
